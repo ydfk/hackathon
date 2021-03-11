@@ -6,7 +6,7 @@
       "type": "node",
       "request": "launch",
       "args": [
-        "${workspaceRoot}/rboot.ts" // 入口文件
+        "${workspaceRoot}/index.ts" // 入口文件
       ],
       "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
       "sourceMaps": true,
