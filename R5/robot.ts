@@ -3,7 +3,7 @@
  * @Author: ydfk
  * @Date: 2021-03-10 13:53:04
  * @LastEditors: ydfk
- * @LastEditTime: 2021-03-11 17:13:27
+ * @LastEditTime: 2021-03-11 22:57:49
  */
 
 export default (command: string, obstacles: number[][], x: number, y: number): boolean => {
