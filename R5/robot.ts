@@ -3,9 +3,9 @@
  * @Author: ydfk
  * @Date: 2021-03-10 13:53:04
  * @LastEditors: ydfk
- * @LastEditTime: 2021-03-11 22:57:49
+ * @LastEditTime: 2021-03-12 14:16:20
  */
-
+//O(commandSize + obstaclesSize) * O(min(x,y))
 export default (command: string, obstacles: number[][], x: number, y: number): boolean => {
   ////记录障碍物位置
   let obstacleMap = new Map();

@@ -3,8 +3,9 @@
  * @Author: ydfk
  * @Date: 2021-03-11 21:51:12
  * @LastEditors: ydfk
- * @LastEditTime: 2021-03-11 22:50:09
+ * @LastEditTime: 2021-03-12 14:15:36
  */
+//O(commandSize + obstaclesSize)
 export default (command: string, obstacles: number[][], x: number, y: number): boolean => {
   let dx = 0;
   let dy = 0;
@@ -21,8 +22,6 @@ export default (command: string, obstacles: number[][], x: number, y: number): b
 
     cmdLineMap.set(`${dx}${dy}`, 1);
   }
-
-  console.log("🚀 ~ 第一遍走完后的位置", dx, dy);
 
   //判断是否能到达终点
   if (!isPass(x, y, cmdLineMap, dx, dy)) {
